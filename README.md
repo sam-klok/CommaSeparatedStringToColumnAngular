@@ -1,3 +1,35 @@
+Playing with simple editing in the Angualar app of the text in the text area.
+
+thank you
+Sam Klok
+
+
+Used info: 
+
+1. CSS modifications for textarea to have it full size:
+https://stackoverflow.com/questions/38545704/textarea-to-full-size/38545804
+
+2. creating basic event to modify text:
+https://therichpost.com/how-to-change-button-text-on-click-function-in-angular-12/
+
+3. My question about funky behaviour of this app
+https://stackoverflow.com/questions/70689569/angular-app-stops-changing-text-on-button-click-after-user-input
+
+4. textarea two way binding in Angular is not that simple, use the change-function:
+https://stackoverflow.com/questions/37346820/ngmodel-for-textarea-not-working-in-angular-2
+
+5. Microsoft Edge redirects http://localhost to https://localhost
+Go to Edge browser and type following statement in address bar: 
+edge://net-internals/#hsts
+Scroll all the way down to the section below and enter “localhost”, then click “Delete”.
+
+https://stackoverflow.com/questions/63825407/microsoft-edge-redirects-http-localhost-to-https-localhost
+
+===================
+Generated: 
+
+
+
 # CommaSeparatedStringToColumnAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
