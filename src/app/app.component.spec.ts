@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'CommaSeparatedStringToColumnAngular'`, () => {
+  it(`should have as title 'testText'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('CommaSeparatedStringToColumnAngular');
+    expect(app.title).toEqual('testText');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('CommaSeparatedStringToColumnAngular app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('testText app is running!');
   });
 });
